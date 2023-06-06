@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Resources:
+  importlambda:
+    Type: 'AWS::Lambda::Function'
+    DeletionPolicy: Retain
+    Properties:
+      FunctionName: importlambda
+      Role: 'arn:aws:iam::000000000000:role/service-role/importlambda-role-syracbw5'
+      Code:
+        S3Bucket: "xxx"
+        S3Key: "xxx"

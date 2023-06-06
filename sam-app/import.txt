@@ -1,0 +1,11 @@
+[
+    {
+        "ResourceType": "AWS::Serverless::Function",
+        "LogicalResourceId":
+            "importlambda"
+        ,
+        "ResourceIdentifier": {
+            "FunctionName":"importlambda"
+        }
+    }
+]
