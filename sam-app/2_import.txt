@@ -1,0 +1,11 @@
+[
+    {
+        "ResourceType": "AWS::Lambda::Function",
+        "LogicalResourceId":
+            "testimport3"
+        ,
+        "ResourceIdentifier": {
+            "FunctionName":"testimport3"
+        }
+    }
+]
